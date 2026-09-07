@@ -54,3 +54,11 @@ INSERT INTO customers (customer_name, email, phone, address, age, account_status
     ('Arjun', 'arjun@gmail.com', '9876543215', 'Pune',      35, 'NOT ACTIVE'),
     ('Neha',  'neha@gmail.com',  '9876543216', 'Hyderabad', 23, 'ACTIVE'),
     ('Vijay', 'vijay@gmail.com', '9876543217', 'Bangalore', 40, 'NOT ACTIVE');
+
+
+# Sub queries 
+
+sub querie is a querie that is written inside another querie
+
+find food_items whose price is greater that the average food price
+select food_name,price from food_items where price > (select avg(price) from food_items);
