@@ -38,16 +38,19 @@
 #     i += 1
 # print(sum)
 
-n = int(input())
-i = 1
-fact = 1 
-if n > 0 :
-    while i  < n :
-        fact *= i
-        i += 1
-    print(fact)
-else :
-    if n == 0 :
-        print(1)
-    else : 
-        print(-1)
+# n = int(input())
+# i = 1
+# fact = 1 
+# if n > 0 :
+#     while i  < n :
+#         fact *= i
+#         i += 1
+#     print(fact)
+# else :
+#     if n == 0 :
+#         print(1)
+#     else : 
+#         print(-1)
+
+for i in range(1,11): # starting value , ending value , step value 
+    print(i)

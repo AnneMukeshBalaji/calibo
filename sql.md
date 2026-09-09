@@ -62,3 +62,34 @@ sub querie is a querie that is written inside another querie
 
 find food_items whose price is greater that the average food price
 select food_name,price from food_items where price > (select avg(price) from food_items);
+
+# Window Function 
+
+A window function performs a calculation across related rows while retaining each row in the result 
+
+function_name(expression) over (
+  .........
+)
+
+## row_number() -> assings a unique number to every row 
+
+select employee_name,department,salary 
+row_number() over(
+  order by salary desc 
+)as row_num from employees;
+
+## Rank():
+  
+if two employees have the same salary ,should they have the same Rank ? -> Yes 
+
+## Dense_rank():
+
+Dense_rank() alsot givs the same rank to equal values but id does not leave gaps
+
+## Lag() 
+
+now move away from ranking. lag looks at a previous row  if no previous row then the result will be null
+
+## lead()
+
+it is opposite to the lag() function
