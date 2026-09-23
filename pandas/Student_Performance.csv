@@ -1,0 +1,62 @@
+Student_ID,Name,Age,Gender,Department,Attendance,Study_Hours,Assignment_Score,Exam_Score,City,Enrollment_Date,Fee_Status,Placement_Status
+1001,Ravi,21,Female,Data Science,84.0,5.5,63,78,Visakhapatnam,2026-01-05,Paid,Placed
+1002,Priya,23,Male,Cloud,76.1,8.4,61,99,Chennai,2026-01-08,Paid,Placed
+1003,Arun,23,Female,Python,98.9,2.0,63,70,Hyderabad,2026-01-11,Paid,Placed
+1004,Meena,21,Male,Data Science,97.9,3.6,72,64,Visakhapatnam,2026-01-14,Paid,Not Placed
+1005,Kiran,22,Male,AI,,2.8,70,76,Vijayawada,2026-01-17,Paid,Placed
+1006,Suresh,20,Female,AI,95.4,3.4,81,77,Chennai,2026-01-20,Paid,Not Placed
+1007,Anjali,24,Female,AI,73.8,4.9,70,74,Hyderabad,2026-01-23,Paid,Placed
+1008,Rahul,20,Male, ai ,76.6,4.1,97,91,Vijayawada,2026-01-26,Pending,Placed
+1009,Divya,20,Female,Data Science,89.7,4.3,67,77,Vijayawada,2026-01-29,Paid,Not Placed
+1010,  Rahul  ,22,Female,Python,94.2,7.4,53,84,Bengaluru,2026-02-01,Paid,Not Placed
+1011,Sneha,20,Female,AI,94.5,8.0,56,94,Visakhapatnam,2026-02-04,Paid,Placed
+1012,Manoj,21,Male,Cloud,80.5,2.0,97,73,Chennai,2026-02-07,Paid,Placed
+1013,Kavya,21,Male,Python,95.5,3.0,45,59,Hyderabad,2026-02-10,Paid,Not Placed
+1014,Naveen,23,Male,data science,94.4,6.2,45,82,Bengaluru,2026-02-13,Paid,Placed
+1015,Pooja,24,Male,AI,97.0,4.0,91,96,Visakhapatnam,2026-02-16,Paid,Placed
+1016,Harish,20,Male,AI,92.3,3.3,78,66,Bengaluru,2026-02-19,Paid,Not Placed
+1017,Swathi,20,Male,AI,88.7,3.6,76,91,Visakhapatnam,2026-02-22,Paid,Placed
+1018,Ajay,22,Male,Data Science,,3.8,98,73,Visakhapatnam,2026-02-25,Pending,Placed
+1019,Keerthi,21,Male,Data Science,79.5,7.4,92,99,Chennai,2026-02-28,Paid,Not Placed
+1020,Rohit,24,Male,AI,97.1,2.5,69,70,Visakhapatnam,2026-03-03,Paid,Not Placed
+1021,Lakshmi,23,Female,Data Science,98.2,6.5,84,99,Bengaluru,2026-03-06,Paid,Placed
+1022,Varun,21,Male,AI,76.8,5.4,89,88,Visakhapatnam,2026-03-09,Pending,Placed
+1023,Asha,23,Female,AI,77.5,3.6,97,84,Chennai,2026-03-12,Paid,Placed
+1024,Dinesh,22,Female,Data Science,83.1,4.4,45,63,Chennai,2026-03-15,Paid,Not Placed
+1025,Teja,22,Female,Data Science,81.9,3.3,60,63,Bengaluru,2026-03-18,Paid,Not Placed
+1026,Sanjana,20,Male,Python,98.8,5.8,83,98,Vijayawada,2026-03-21,Pending,Placed
+1027,sneha,24,Male,AI,73.5,2.1,49,57,Vijayawada,2026-03-24,Pending,Not Placed
+1028,Bhavya,23,Male,Data Science,68.6,1.5,66,54,Visakhapatnam,2026-03-27,Paid,Not Placed
+1029,Tarun,21,Male,Data Science,83.3,5.9,73,95,Hyderabad,2026-03-30,Paid,Not Placed
+1030,Nisha,22,Female,AI,73.5,,47,61,Visakhapatnam,2026-04-02,Paid,Not Placed
+1031,Sai,20,Male,Data Science,79.4,2.0,56,63,Bengaluru,2026-04-05,Paid,Not Placed
+1032,Deepika,20,Male,AI,91.1,4.3,70,82,Bengaluru,2026-04-08,Paid,Placed
+1033,Pranav,23,Male,AI,90.3,1.9,60,53,Bengaluru,2026-04-11,Paid,Not Placed
+1034,Mounika,22,Male,Cloud,77.5,7.7,95,99,Bengaluru,2026-04-14,Pending,Not Placed
+1035,Aditya,24,Male,Cloud,84.8,1.7,81,72,Bengaluru,2026-04-17,Paid,Placed
+1036,Harini,22,Female,python ,83.8,5.6,66,88,Chennai,2026-04-20,Paid,Placed
+1037,Ganesh,23,Male,AI,87.7,4.6,73,80,Vijayawada,2026-04-23,Paid,Placed
+1038,Shreya,23,Female,AI,75.8,6.2,58,84,Bengaluru,2026-04-26,Paid,Not Placed
+1039, Karthik ,22,Male,Python,86.3,3.8,72,84,Hyderabad,2026-04-29,Paid,Not Placed
+1040,Lavanya,23,Female,Data Science,98.3,2.6,49,54,Hyderabad,2026-05-02,Paid,Not Placed
+1041,Rakesh,22,Male,AI,83.1,8.4,91,99,Hyderabad,2026-05-05,Paid,Placed
+1042,Pallavi,21,Male,Data Science,96.1,7.4,93,99,Hyderabad,2026-05-08,Paid,Placed
+1043,Karthik,22,Female,AI,81.5,7.5,74,97,Chennai,2026-05-11,Paid,Not Placed
+1044,Sowmya,22,Female,Cloud,78.9,,90,88,Hyderabad,2026-05-14,Paid,Not Placed
+1045,Surya,23,Female,AI,88.0,1.8,96,80,Bengaluru,2026-05-17,Pending,Not Placed
+1046,Ishita,23,Male,Python,88.7,3.6,49,69,Visakhapatnam,2026-05-20,Paid,Not Placed
+1047,Manoj,20,Female,AI,94.8,5.3,56,86,Hyderabad,2026-05-23,Paid,Placed
+1048,Neha,20,Male,Data Science,75.1,3.8,60,70,Chennai,2026-05-26,Pending,Placed
+1049,Abhishek,21,Male,Data Science,83.5,7.3,70,99,Chennai,2026-05-29,Paid,Placed
+1050,Sravani,20,Female,AI,85.7,3.4,70,70,Hyderabad,2026-06-01,Pending,Not Placed
+1051,Lokesh,22,Female,Cloud,91.8,8.3,92,99,Visakhapatnam,2026-06-04,Paid,Not Placed
+1052,Anusha,23,Male,,69.4,4.7,65,77,Hyderabad,2026-06-07,Pending,Not Placed
+1053,Chandu,20,Male,Cloud,98.8,7.4,83,99,Chennai,2026-06-10,Paid,Not Placed
+1054,Ramya,20,Female,Cloud,82.6,2.9,80,78,Vijayawada,2026-06-13,Pending,Placed
+1055,Yashwanth,21,Female,Data Science,76.7,4.4,77,75,Bengaluru,2026-06-16,Paid,Not Placed
+1056,Bhargavi,21,Female,Cloud,95.4,6.4,74,99,Chennai,2026-06-19,Pending,Not Placed
+1057,Venkat,22,Male,AI,91.2,2.5,81,64,Hyderabad,2026-06-22,Paid,Not Placed
+1058,Sahithi,23,Male,AI,97.5,2.4,67,56,Bengaluru,2026-06-25,Paid,Not Placed
+1059,Akash,21,Male,AI,78.3,8.3,54,99,Hyderabad,2026-06-28,Pending,Placed
+1060,Madhavi,20,Male,AI,85.1,6.5,98,99,Hyderabad,2026-07-01,Paid,Placed
+1012,Manoj,21,Male,Cloud,80.5,2.0,97,73,Chennai,2026-02-07,Paid,Placed

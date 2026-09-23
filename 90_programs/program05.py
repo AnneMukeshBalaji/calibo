@@ -9,6 +9,6 @@ def main() -> None:
     if is_odd(num):
         print(f"{num} is odd")
     else:
-        print(f"{num} is odd")
+        print(f"{num} is even")
 if __name__ == "__main__":
     main()
