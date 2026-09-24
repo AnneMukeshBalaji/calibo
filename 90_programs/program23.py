@@ -11,6 +11,7 @@ def main()-> None:
     n = int(input('Enter a natural number : '))
     if n <= 0 :
         print('Enter a valid natural number')
+        return
     print(f'sum of first {n} even natural numbers : {sum_of_even_numbers(n)}')
 if __name__ == "__main__":
     main()

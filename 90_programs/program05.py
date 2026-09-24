@@ -1,6 +1,6 @@
 # Write a python program to check whether a number is even or odd.
 def is_odd(num : int) -> bool:
-    if num % 2 == 1:
+    if num % 2 != 0:
         return True
     else:
         return False

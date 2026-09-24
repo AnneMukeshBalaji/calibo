@@ -7,6 +7,7 @@ def main() -> None:
     n = int(input("Enter a positive integer : "))
     if n <= 0:
         print('Please enter a valid positive integer')
+        return
     reverse_loop(n)
 if __name__ == "__main__":
     main()
