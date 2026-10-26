@@ -1,5 +1,5 @@
 # Flask ipynb file interactive python notebook -> ipynb
-from os import curdir
+from os import close, curdir
 
 from flask import Flask, json,jsonify,Response, request
 from flask_cors import CORS
@@ -70,6 +70,27 @@ def insert_student() -> Response:
     finally :
         cursor.close()
         conn.close()
+@app.route("/update_student/<int:id>",methods=['PUT'])
+def update_student_by_put(id)-> Response : 
+    conn = get_connection(password="luffy",database="students")
+    cursor = conn.cursor(dictionary=True)
+    data = request.get_json()
+    values = (
+        data['name'],data['dept'],data['marks'],id
+    )
+    sql_statement = "UPDATE students set name=%s,dept=%s,marks=%s where student_id=%s"
+    try :
+        cursor.execute(sql_statement,values)
+        conn.commit()
+        return jsonify({"message" : "updated successfully"})
+    except Exception as e :
+        return jsonify({
+            "Error Occured" : str(e)
+        })
+    finally :
+        cursor.close()
+        conn.close()
+
 @app.route("/delete_student",methods=['DELETE'])
 def delete_student():
     conn = get_connection(password="luffy",database="students")
