@@ -1,4 +1,6 @@
 import requests
+
+
 records = [
     {
         "id" : 1,
@@ -33,7 +35,4 @@ print(var.status_code)
 print(var.json())
 
 for r in records : 
-    print(f'{r["id"]},{r["name"]}')
-
-# NOTE: TASK -> Null value vs Missing Value 
-# NOTE: TASK -> Spaces in names what does happens if spaces are there in the name and searching
+    print(f'{r["id"]},{r['name']}')
